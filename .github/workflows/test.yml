@@ -17,4 +17,4 @@ jobs:
     - uses: ./
       with:
         owner: ${{ github.event.inputs.org }}
-        token: ${{ secrets.PAT }}
+        token: ${{ secrets.GITHUB_TOKEN }}
